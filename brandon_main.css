@@ -1,0 +1,147 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.content {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#title {
+	font-family: "Arca Majora 3";
+	font-size: 70px;
+	color: #bfbfbf;
+	margin-top: 60px;
+}
+
+#intro {
+	margin-top: 75px;
+	font-family: "Arca Majora 3";
+	font-size: 40px;
+	color:#6E6E6E;
+}
+
+.info {
+	font-family: "Arca Majora 3";
+	font-size: 35px;
+	color:#404040;
+	display: block;
+	margin-bottom: 0px;
+}
+
+#junior {
+	color:#BFBFBF;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none;
+	
+}
+
+#junior:hover {
+	color: #ff5050;
+}
+
+.experience {
+	margin-top: 15%;
+	display: block;
+}
+
+#brain {
+	color:#BFBFBF;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+#brain:hover {
+	color: #6699ff;
+}
+
+.text {
+	display: inline-block;
+}
+
+.display {
+	display: inline-block;
+	float: right;
+	
+}
+
+.caption {
+	font-family: "Arca Majora 3";
+	font-size: 16px;
+	color:#404040;
+	display: inline-block;
+	width: 320px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.details {
+	font-family: "Arca Majora 3";
+	color:#6E6E6E;
+	font-size: 15px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+#hierarchy {
+	color:#BFBFBF;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+#hierarchy:hover {
+	color: #ff4d4d;
+}
+
+#sbusiness {
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+
+#filler {
+	margin-top: 40px;
+	width: 320px;
+	height: 160px;
+	display: inline-block;
+	background-color: white;
+}
+
+#class {
+	color:#BFBFBF;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+#class:hover {
+	color: #cc3399;
+}
+
+#council {
+	height: 120px;
+}
+
+#kast {
+	color:#BFBFBF;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none;
+}
+
+#kast:hover {
+	color: #ffc34d;
+}
+
+#kastimg {
+	height: 80px;
+}
