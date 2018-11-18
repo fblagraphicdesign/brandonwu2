@@ -21,7 +21,7 @@ body {
 #intro {
 	margin-top: 75px;
 	font-family: "Arca Majora 3";
-	font-size: 40px;
+	font-size: 35px;
 	color:#6E6E6E;
 }
 
@@ -46,8 +46,7 @@ body {
 }
 
 .experience {
-	margin-top: 15%;
-	display: block;
+	position: relative;
 }
 
 #brain {
@@ -62,7 +61,9 @@ body {
 }
 
 .text {
-	display: inline-block;
+	position: relative;
+	display: block;
+	float: left;
 }
 
 .display {
@@ -108,13 +109,6 @@ body {
 	display:block;
 }
 
-#filler {
-	margin-top: 40px;
-	width: 320px;
-	height: 160px;
-	display: inline-block;
-	background-color: white;
-}
 
 #class {
 	color:#BFBFBF;
@@ -143,5 +137,25 @@ body {
 }
 
 #kastimg {
-	height: 80px;
+	height: 8vw;
+}
+
+@media only screen and (max-width:1300px) {
+  /* For mobile phones: */
+  .content {
+    margin-left: 15%;
+	margin-right: 15%;
+  }
+}
+
+@media (max-width:1300px) { 
+	.display{
+		float:left;
+		width: 100%;
+	}
+}
+
+.space {
+	height: 25px;
+	clear: both;
 }
