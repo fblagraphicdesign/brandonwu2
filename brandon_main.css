@@ -31,6 +31,7 @@ body {
 }
 
 .info {
+	margin-top: 0px;
 	font-family: "Arca Majora 3";
 	font-size: 35px;
 	color:#404040;
@@ -54,14 +55,28 @@ body {
 	position: relative;
 }
 
-#brain {
+.brain {
 	color:#BFBFBF;
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
 	text-decoration: none;
+	
 }
 
-#brain:hover {
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0!important;
+	font: inherit;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+.brain:hover {
 	color: #6699ff;
 }
 
@@ -108,10 +123,8 @@ body {
 }
 
 #sbusiness {
+	margin-top: none;
 	height: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
 }
 
 
@@ -142,7 +155,7 @@ body {
 }
 
 #kastimg {
-	height: 8vw;
+	height: 80px;
 }
 
 @media only screen and (max-width:1300px) {
@@ -156,19 +169,33 @@ body {
 @media only screen and (max-width:700px) {
   /* For mobile phones: */
   .content {
-    margin-left: 8%;
-	margin-right: 8%;
+    margin-left: 5%;
+	margin-right: 5%;
   }
+	
+	video {
+		width: 85%;
+		height: 85%;
+	}
+	
+	#kastimg {
+		width: 90%;
+		height: 90%;
+	}
 }
 
-@media (max-width:1300px) { 
+@media (max-width:1150px) { 
 	.display{
 		float:left;
-		width: 100%;
 	}
 }
 
 .space {
-	height: 25px;
+	height: 50px;
+	clear: both;
+}
+
+.space-small {
+	height: 40px;
 	clear: both;
 }
