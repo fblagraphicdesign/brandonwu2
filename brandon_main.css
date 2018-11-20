@@ -268,3 +268,12 @@ a:hover {
 	font-size: 16px;
 	color:#B2B2B2;
 }
+
+#illusion {
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+#illusion:hover {
+	color: #ffffff;
+}
