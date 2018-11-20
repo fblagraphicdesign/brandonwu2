@@ -270,6 +270,7 @@ a:hover {
 }
 
 #illusion {
+	color: #BFBFBF;
 	-webkit-transition: color 1s;
 	transition: color 1s;
 }
