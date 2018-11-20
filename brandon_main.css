@@ -19,9 +19,33 @@ body {
 .title {
 	font-family: "Arca Majora 3";
 	font-size: 70px;
-	color: #404040;
-	margin-top: 60px;
-	margin-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	display:inline-block;
+	background: linear-gradient(
+        45deg,
+       #e1eec3,
+		#f05053,
+		#e1eec3
+    );
+	color:#B2B2B2;
+	-webkit-background-clip: text;
+/*
+	-webkit-transition: color 1s;
+	transition: color 1s;
+*/
+    
+}
+
+.title:hover {
+/*	color: #fff;*/
+	-webkit-text-fill-color: transparent;
+	animation: 5.5s rainbow linear infinite;
+	cursor: default;
+}
+
+@keyframes rainbow {
+    100% { background-position: 100vw 0px; }
 }
 
 #intro {
@@ -193,6 +217,10 @@ button:focus {
 	.display{
 		float:left;
 	}
+	
+	.bar {
+		float: left;
+	}
 }
 
 .space {
@@ -212,4 +240,31 @@ button:focus {
 	color:#404040;
 	display: block;
 	margin-bottom: 0px;
+}
+
+.bar {
+	font-family: "Arca Majora 3";
+	font-size: 20px;
+	color:#B2B2B2;
+	display: inline-block;
+	float: right;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+a{
+	color:#B2B2B2;
+	text-decoration:none;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+a:hover {
+	color:#6666ff;
+}
+
+#contact {
+	font-family: "Arca Majora 3";
+	font-size: 16px;
+	color:#B2B2B2;
 }
