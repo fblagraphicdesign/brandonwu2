@@ -250,7 +250,6 @@ button:focus {
 	float: right;
 	margin: 0px;
 	margin-top: 20px;
-	margin-left: 20px;
 }
 a{
 	color:#B2B2B2;
@@ -270,10 +269,11 @@ a:hover {
 }
 
 #illusion {
-	color: #BFBFBF;
+	color: #B2B2B2;
 	-webkit-transition: color 1s;
 	transition: color 1s;
 }
+
 
 #illusion:hover {
 	color: #ffffff;

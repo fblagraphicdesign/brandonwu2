@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face { 
+	font-family: "Arca Majora 3"; 
+	src: url('ArcaMajora3-Bold.otf'); 
+} 
+
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	color:#B2B2B2;
+	text-decoration:none;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+	margin: 0px;
+}
+
+
+.content {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+.title {
+	font-family: "Arca Majora 3";
+	font-size: 70px;
+	margin: 0px;
+	padding: 0px;
+	display:inline-block;
+	background: linear-gradient(
+        45deg,
+/*       #EECDA3, #EF629F,#EECDA3*/
+		
+		#FDC830,#F37335,#FDC830
+    );
+	color:#B2B2B2;
+	-webkit-background-clip: text;
+/*
+	-webkit-transition: color 1s;
+	transition: color 1s;
+*/
+    
+}
+
+.title:hover {
+/*	color: #fff;*/
+	-webkit-text-fill-color: transparent;
+	animation: 5.5s rainbow linear infinite;
+	cursor: default;
+}
+
+@keyframes rainbow {
+    100% { background-position: 100vw 0px; }
+}
+
+.space {
+	height: 50px;
+	clear: both;
+}
+
+.space-small {
+	height: 40px;
+	clear: both;
+}
+
+
+.title-small {
+	font-family: "Arca Majora 3";
+	font-size: 50px;
+	margin: 0px;
+	color:#BFBFBF;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
